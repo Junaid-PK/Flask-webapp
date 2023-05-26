@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header {
+    background: hsl(0, 0%, 20%);
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  .sidebar {
+    background: blue;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    flex-shrink: 0;
+    height: 100vh;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .header-icons button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .profile-btn::after {
+    content: "Profile";
+  }
+  
+  .logout-btn::after {
+    content: "Logout";
+  }
+  
+  .search-btn::after {
+    content: "Search";
+  }
+  
